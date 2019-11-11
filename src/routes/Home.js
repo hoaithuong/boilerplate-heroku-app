@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Page from "../components/Page";
 import { Visualization } from "@gooddata/react-components";
 import constants from "../constants";
-import { project } from "../project";
+// import { project } from "../project";
 
 const Home = () => {
     const [exportState, setExportState] = useState({ error: null, isLoading: true, data: null });
